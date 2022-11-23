@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+.avatar {
+    border-radius: 100%;
+    border: 10px solid #bb004e;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.masthead {
+    background: linear-gradient(rgb(72,0,72,0.9), rgb(192,72,72,1)), url("../assets/img/cyborgman.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    background-color: #bb004e !important;
+}
+.yellowButton {
+    background-color: #b66879 !important;
+}
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcome {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#welcome h1 {
+    font-size: 2em !important;
+    margin-top: 110px;
+}
+
+#main {
+    background-color: #222;
+}
+
+#main h1 {
+    color: #fff;
+    padding: 20px;
+}
+.influenceItem { 
+    list-style-type: decimal;
+    width: 300px;
+    display: inline-block;
+    background-color: #bb004e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 20px 20px;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+.influences {
+    justify-content: space-evenly;
+    color: #771339;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.innerList {
+    padding: 0;
+    text-transform: none;
+    font-weight: normal;
+}
+.innerListItem {
+    color: #fff;
+    background-color: #771339;
+    display: block;
+    padding: 20px;
+    font-size: .75em;
+    margin: 10px 0px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+.innerListItem:hover {
+    background-color: #b66879;
+    cursor: pointer;
+    transition: 200ms;
+}
+span {
+    font-family: 'Rubik Microbe';
+}
+.portrait {
+    width: 300px;
+}
+.aboutMeText {
+    font-size: 2em;
+    color: #fff;
+}
